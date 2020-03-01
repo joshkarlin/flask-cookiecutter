@@ -11,20 +11,16 @@ authors = [
 
 readme = "README.md"
 
-repository = "https://github.com/python-poetry/poetry"
-homepage = "https://github.com/python-poetry/poetry"
-
 keywords = ['packaging', 'poetry']
 
 [tool.poetry.dependencies]
 python = "^3.6.9"
-fastapi ="^0.49"
 flask = "^1.1"
-# Git dependencies
-# cleo = { git = "https://github.com/sdispater/cleo.git", branch = "master"  }
+flask-restx = "^0.1.1"
+redis = "^3.4.1"
+rq = "^1.2.2"
+waitress = "^1.4.3"
 
-# Optional dependencies (extras)
-# pendulum = { version = "^1.4", optional = true  }
 
 [tool.poetry.dev-dependencies]
 black = "^19.10b0"
