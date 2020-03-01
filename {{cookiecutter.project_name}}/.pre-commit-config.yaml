@@ -14,6 +14,13 @@ repos:
         language: system
         entry: black
         types: [python]
+
+      - id: autoflake
+        name: autoflake
+        stages: [commit]
+        language: system
+        entry: autoflake
+        args: ['--in-place', '--remove-all-unused-imports', '--remove-unused-variable']
       
       - id: flake8
         name: flake8
