@@ -1,0 +1,5 @@
+name: {{cookiecutter.environment_name}}
+channels:
+    - default
+dependencies:
+    - python==3.6.9

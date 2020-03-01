@@ -1,0 +1,6 @@
+{
+    "project_name": "flask_app",
+    "project_description": "Made using https://github.com/joshkarlin/flask-cookiecutter",
+    "author": "Mike Floury",
+    "environment_name": "flask_app"
+}

@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "{{cookiecutter.project_name}}"
+version = "0.0.1"
+description = "{{cookiecutter.project_description}}"
+
+license = "MIT"
+
+authors = [
+    "{{cookiecutter.author}}"
+]
+
+readme = "README.md"
+
+repository = "https://github.com/python-poetry/poetry"
+homepage = "https://github.com/python-poetry/poetry"
+
+keywords = ['packaging', 'poetry']
+
+[tool.poetry.dependencies]
+python = "^3.6.9"
+fastapi ="^0.49"
+flask = "^1.1"
+# Git dependencies
+# cleo = { git = "https://github.com/sdispater/cleo.git", branch = "master"  }
+
+# Optional dependencies (extras)
+# pendulum = { version = "^1.4", optional = true  }
+
+[tool.poetry.dev-dependencies]
+black = "^19.10b0"
+flake8 = "^3.7"
+isort = "^4.3"
+pre-commit = "^2.1"
+pytest = "^5.3"
+pytest-cov = "^2.8"
+pytest-testmon = "^1.0"
+
+[tool.poetry.scripts]
+my-script = 'my_package:main'
